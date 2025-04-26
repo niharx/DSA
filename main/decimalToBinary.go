@@ -2,7 +2,9 @@ package main
 import "fmt"
 
 func main(){
-	num:=65535
+	var num int;
+	fmt.Print("Give me a number: ")
+	fmt.Scanln(&num)
 
 	if num==0 {
      fmt.Print("0")
