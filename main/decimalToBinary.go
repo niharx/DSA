@@ -1,7 +1,7 @@
 package main
 import "fmt"
 
-func main(){
+func convertToBinary(){
 	var num int;
 	fmt.Print("Give me a number: ")
 	fmt.Scanln(&num)

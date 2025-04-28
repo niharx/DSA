@@ -1,0 +1,11 @@
+Array :- Store similar type of data
+Array static in size
+TC - Insert O(1) {because we have direct access of memory}
+   - lookup O(1) {by index} And lookup O(n) {by value}
+   - deletion 
+declare array in go
+var a []string
+
+
+Dynamic array
+declare in go
