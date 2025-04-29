@@ -40,7 +40,7 @@ func(m*MyArray)Print(){
 	}
    fmt.Println(val)
 }
-func main(){
+func declareMyArray(){
  var a MyArray;
  a.SetSize(5);
  a.Insert(2)
