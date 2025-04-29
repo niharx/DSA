@@ -24,7 +24,7 @@ func findMin(arr []int)int{
 	return minElement
 }
 
-func main(){
+func findMinAndMax(){
    var arr = []int{5,3,14,23,2}
    fmt.Println(findMin(arr))
    fmt.Println(findMax(arr))
